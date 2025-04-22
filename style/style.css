@@ -83,7 +83,6 @@ main {
     background-color: var(--main-background-color);
     width: 100%;
     margin-top: 50px;
-    padding-bottom: 50px;
 }
 
 h1 {
@@ -118,7 +117,7 @@ p {
     justify-content: flex-start;
     align-items: center;
     padding: 0 25px;
-    background-image: url(/img/automobile2.jpg);
+    background-image: url(../img/automobile2.jpg);
     background-size: cover;
     grid-area: banner;
 }
@@ -207,6 +206,7 @@ p {
     padding: 0 25px;
     margin-top: 50px;
     grid-area: testimoniales;
+    padding-bottom: 20px;
 }
 
 #testimoniales article {
@@ -293,7 +293,7 @@ footer span {
 
 /*PAGE ABOUT US*/
 #aboutus-main div {
-    padding-top: 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -302,22 +302,37 @@ footer span {
     text-align: center;
 }
 
-.aboutus-img{
+.aboutus-img {
     height: 150px;
 }
 
-/**/
+/*PAGE CONTACT US*/
+#contactus-main div{
+    padding: 20px;
+}
+#maps-section{
+    display: flex;
+    padding: 20px;
+    align-items: center
+}
+.form{
+    padding: 20px;
+}
+
 @media screen and (max-width: 426px) {
-       
+
     h1 {
         font-size: 30px;
     }
-    #banner div{
+
+    #banner div {
         width: 80%;
     }
-    .button{
+
+    .button {
         text-align: center;
     }
+
     .ourservicesTop {
         flex-direction: column;
     }
@@ -329,22 +344,36 @@ footer span {
     .whyus-container {
         flex-direction: column;
     }
-    article{
-        padding:10px 0px
+
+    article {
+        padding: 10px 0px
     }
-    main{
+
+    main {
         padding-bottom: 0px;
     }
+
     .footer-container {
         flex-direction: column;
+    }
+
+    .footer-ContactInformation {
         align-items: flex-start;
     }
 
-    .mision-vision-container{
+    .mision-vision-container {
         flex-direction: column;
     }
 
-    .vision{
+    .vision {
         padding-bottom: 20px;
+    }
+    #maps-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #maps {
+        width: 75%;
     }
 }
