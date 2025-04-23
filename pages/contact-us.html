@@ -32,52 +32,55 @@
 
     </header>
     <main id="contactus-main">
-        <div>
-            <h4>Contact us</h3>
-            <h2>Talk with a sales expert </h2>
-            <p>We love hearing from you. If you have questions or just want more information on our products, our sales
-                team
-                is here to help.</p>
+        <div class="contactus-container">
+            <div>
+                <h4>Contact us</h3>
+                <h2>Talk with a sales expert </h2>
+                <p>We love hearing from you. If you have questions or just want more information on our products, our sales
+                    team
+                    is here to help.</p>
+            </div>
+    
+            <form class="form">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+    
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name">
+    
+                <label for="pais">Country:</label>
+                <select name="" id="">
+                    <option value="">Brasil</option>
+                    <option value="">Argentina</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Perú</option>
+                </select>
+    
+                <label for="phone">Phone number:</label>
+                <input type="text" name="phone" id="phone">
+    
+                <label for="business-email">Business email:</label>
+                <input type="email" name="business-email" id="business-email" placeholder="test@mail.com">
+    
+                <label for="job-title">Job Title:</label>
+                <input type="text" name="job-title" id="job-title">
+    
+                <label for="company-name">Company Name:</label>
+                <input type="text" name="company-name" id="company-name">
+    
+                <label for="Message">Your message:</label>
+                <textarea name="message" id="message"></textarea>
+    
+                <input type="checkbox" name="agree-privacy" id="agree-privacy">
+                <label for="agree-privacy">I agree to receive marketing communications according to the Privacy
+                    Policy.</label>
+    
+                <input class="button" type="submit" value="Contact us">
+                <input class="button" type="reset" value="Reset values">
+    
+            </form>
         </div>
-
-        <form class="form">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
-
-            <label for="last-name">Last Name:</label>
-            <input type="text" name="last-name" id="last-name">
-
-            <label for="pais">Country:</label>
-            <select name="" id="">
-                <option value="">Brasil</option>
-                <option value="">Argentina</option>
-                <option value="">Uruguay</option>
-                <option value="">Perú</option>
-            </select>
-
-            <label for="phone">Phone number:</label>
-            <input type="text" name="phone" id="phone">
-
-            <label for="business-email">Business email:</label>
-            <input type="email" name="business-email" id="business-email" placeholder="test@mail.com">
-
-            <label for="job-title">Job Title:</label>
-            <input type="text" name="job-title" id="job-title">
-
-            <label for="company-name">Company Name:</label>
-            <input type="text" name="company-name" id="company-name">
-
-            <label for="Message">Your message:</label>
-            <textarea name="message" id="message"></textarea>
-
-            <input type="checkbox" name="agree-privacy" id="agree-privacy">
-            <label for="agree-privacy">I agree to receive marketing communications according to the Privacy
-                Policy.</label>
-
-            <input class="button" type="submit" value="Contact us">
-            <input class="button" type="reset" value="Reset values">
-
-        </form>
+        
 
         <section id="maps-section">
             <h2>Where to find us:</h2>
