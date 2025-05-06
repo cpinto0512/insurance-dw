@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <title>Aboout Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,22 +16,29 @@
 
 <body>
     <header>
-
-        <a class="logo" href="../index.html">
-            <img src="../img/logo.png" alt="logo">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">Index</a></li>
-                <li><a href="get-a-quote.html">Get a quote</a></li>
-                <li><a href="other-services.html">Other Services</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="contact-us.html">Conctact us</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/logo.png" alt="logo" height="76">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Index</a>
+                        <a class="nav-link"  href="get-a-quote.html">Get a quote</a>
+                        <a class="nav-link"  href="other-services.html">Other Services</a>
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
         </nav>
-
     </header>
+
     <main id="aboutus-main">
         <div class="aboutus-banner">
             <h4>About us</h4>
@@ -91,6 +99,8 @@
         </div>
         <span>Copyright ©2025 All Rights Reserved</span>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 
 </html>
