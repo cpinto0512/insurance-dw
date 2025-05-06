@@ -1,0 +1,12 @@
+@import "../base/vars";
+
+.button {
+    background-color: $button-color;
+    color: $button-text-color;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#testimoniales article {
+    font-style: italic;
+}

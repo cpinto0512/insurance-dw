@@ -1,0 +1,14 @@
+#aboutus-main {
+    div {
+    padding: 20px;
+    text-align: center;
+    }
+}
+
+.mision-vision-container {
+    display: flex;
+    text-align: center;
+    .aboutus-img {
+        height: 150px;
+    }
+}

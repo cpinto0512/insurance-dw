@@ -1,0 +1,93 @@
+@import "../base/vars";
+
+#banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 25px;
+    background-image: url(../../img/automobile2.jpg);
+    background-size: cover;
+
+    div {
+        background-color: $main-background-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;
+        width: 50%;
+        margin-left: 5%;
+
+        h1 {
+            margin: 5%;
+        }
+
+        p {
+            margin: 5%;
+        }
+
+        .button {
+            margin: 5%;
+
+        }
+    }
+}
+
+/**SERVICES**/
+#our-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 50px;
+
+    .ourservices-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .ourservicesTop {
+            display: flex;
+            margin: 10px 0;
+        }
+
+        .ourservicesBottom {
+            display: flex;
+        }
+        .ourservices-img {
+            max-width: 225px;
+        }
+    }
+}
+
+/**WHY US**/
+#why-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 50px;
+    .whyus-container {
+        display: flex;
+        text-align: center;
+        box-shadow: 5px 2px;
+        background-color: $secondary-background-color;
+    }
+}
+
+/**Testimoniales**/
+#testimoniales {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    article {
+        margin-bottom: 30px;
+    }
+}

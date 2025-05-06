@@ -1,0 +1,15 @@
+#contactus-main {
+    div {
+        padding: 20px;
+    }
+    .contactus-container {
+        display: flex;
+        align-items: center
+    }
+    #maps-section {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #343941;
+}
+
+header {
+  background-color: #ffffff;
+  height: 102px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .nav-link {
+  color: #1b365d;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1b365d;
+}
+
+main {
+  background-color: #fefefe;
+  width: 100%;
+  margin-top: 102px;
+  padding: 1% 5%;
+}
+
+h1 {
+  color: #1b365d;
+  font-size: 48px;
+}
+
+h2 {
+  color: var(--main-text-colorr);
+  font-size: 32px;
+}
+
+h3 {
+  color: #0087ae;
+  font-size: 20px;
+}
+
+h4 {
+  color: #0087ae;
+  font-size: 14px;
+}
+
+p {
+  color: #343941;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 20px 20px rgba(1, 0, 39, 0.071);
+}
+footer .footer-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+footer .footer-container nav {
+  min-width: 272px;
+}
+footer .footer-container p {
+  color: #1b365d;
+  font-size: 1em;
+  font-weight: bold;
+}
+footer .footer-container li {
+  color: #004c97;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+footer .footer-container a {
+  color: #004c97;
+}
+footer .footer-container .footer-ContactInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 272px;
+}
+footer .footer-container .footer-ContactInformation li {
+  display: flex;
+  align-items: center;
+}
+footer .footer-container .footer-ContactInformation img {
+  max-width: 50px;
+}
+footer span {
+  width: 272px;
+}
+
+.button {
+  background-color: #ff6c0e;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#testimoniales article {
+  font-style: italic;
+}
+
+.form {
+  background-color: #ffffff;
+  color: #8a8d92;
+  font-style: italic;
+  padding: 20px;
+}
+.form p {
+  margin-bottom: 0;
+}
+
+#banner {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 25px;
+  background-image: url(../../img/automobile2.jpg);
+  background-size: cover;
+}
+#banner div {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 50%;
+  margin-left: 5%;
+}
+#banner div h1 {
+  margin: 5%;
+}
+#banner div p {
+  margin: 5%;
+}
+#banner div .button {
+  margin: 5%;
+}
+
+/**SERVICES**/
+#our-services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 50px;
+}
+#our-services .ourservices-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#our-services .ourservices-container .ourservicesTop {
+  display: flex;
+  margin: 10px 0;
+}
+#our-services .ourservices-container .ourservicesBottom {
+  display: flex;
+}
+#our-services .ourservices-container .ourservices-img {
+  max-width: 225px;
+}
+
+/**WHY US**/
+#why-us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 50px;
+}
+#why-us .whyus-container {
+  display: flex;
+  text-align: center;
+  box-shadow: 5px 2px;
+  background-color: #ffffff;
+}
+
+/**Testimoniales**/
+#testimoniales {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+#testimoniales article {
+  margin-bottom: 30px;
+}
+
+#aboutus-main div {
+  padding: 20px;
+  text-align: center;
+}
+
+.mision-vision-container {
+  display: flex;
+  text-align: center;
+}
+.mision-vision-container .aboutus-img {
+  height: 150px;
+}
+
+.other-services-container div {
+  margin: 10px;
+  margin-top: 20px;
+}
+.other-services-container .other-services-img {
+  max-width: 350px;
+}
+
+#contactus-main div {
+  padding: 20px;
+}
+#contactus-main .contactus-container {
+  display: flex;
+  align-items: center;
+}
+#contactus-main #maps-section {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 30px;
+  }
+  #banner div {
+    width: 80%;
+  }
+  .button {
+    text-align: center;
+  }
+  .ourservicesTop {
+    flex-direction: column;
+  }
+  .ourservicesBottom {
+    flex-direction: column;
+  }
+  .whyus-container {
+    flex-direction: column;
+  }
+  article {
+    padding: 10px 0px;
+  }
+  main {
+    padding-bottom: 0px;
+  }
+  .mision-vision-container {
+    flex-direction: column;
+  }
+  .vision {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-ContactInformation {
+    align-items: flex-start;
+  }
+  #maps-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-container {
+    flex-direction: column;
+  }
+  #maps {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

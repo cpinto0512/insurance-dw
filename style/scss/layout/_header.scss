@@ -1,0 +1,35 @@
+@import "../base/vars";
+
+header {
+    background-color: $secondary-background-color;
+    height: 102px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+}
+
+//header nav ul {
+//    list-style-type: none;
+//    display: flex;
+//    justify-content: space-between;
+//}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-brand {
+    margin-right: 0;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-link{
+    color: $main-text-color;
+}
+.navbar-nav .nav-link.active{
+    color: $main-text-color
+}
+
