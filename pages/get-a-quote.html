@@ -50,115 +50,146 @@
 
         <form class="form row g-3">
             <p>Enter Vehicle Data</p>
-            <div class="col-md-3"><label for="vehicle-type">Vehicle Type:</label>
-                <select name="vehicle-type" id="vehicle-type">
-                    <option value="">-please select-</option>
-                    <option value="">Automibile</option>
-                    <option value="">Truck</option>
-                    <option value="">Motorcycle</option>
-                    <option value="">Camper</option>
+            <div class="col-md-4">
+                <label for="vehicle-type">Vehicle Type:</label>
+                <select class="form-control" name="vehicle-type" id="vehicle-type">
+                    <option selected>-please select-</option>
+                    <option value="Automibile">Automibile</option>
+                    <option value="Truck">Truck</option>
+                    <option value="Motorcycle">Motorcycle</option>
+                    <option value="Camper">Camper</option>
                 </select>
             </div>
-            <div class="col-md-3">
+
+            <div class="col-md-4">
                 <label for="make">Make:</label>
-                <select name="make" id="make">
-                    <option value="">-please select-</option>
-                    <option value="">Audi</option>
-                    <option value="">BMW</option>
-                    <option value="">Ford</option>
-                    <option value="">Honda</option>
-                    <option value="">Mazda</option>
-                    <option value="">Mercedes Benz</option>
-                    <option value="">Nissan</option>
-                    <option value="">Opper</option>
-                    <option value="">Porsche</option>
-                    <option value="">Renault</option>
-                    <option value="">Skoda</option>
-                    <option value="">Suzuki</option>
-                    <option value="">Toyota</option>
-                    <option value="">Volskwagen</option>
-                    <option value="">Volvo</option>
+                <select class="form-select" name="make" id="make">
+                    <option selected>-please select-</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Mazda">Mazda</option>
+                    <option value="MercedesBenz">Mercedes Benz</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Opper">Opper</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Skoda">Skoda</option>
+                    <option value="Suzuki">Suzuki</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Volskwagen">Volskwagen</option>
+                    <option value="Volvo">Volvo</option>
                 </select>
             </div>
-            <div class="col-md-3"><label for="engine-performance">Engine Performance [kW]:</label>
-                <input type="text" name="engine-performance" id="engine-performance">
+            <div class="col-md-4">
+                <label for="engine-performance">Engine Performance [kW]:</label>
+                <input class="form-control" type="text" name="engine-performance"
+                    id="engine-performance">
             </div>
-            <div class="col-md-3"><label for="date-manufacture">Date of Manufacture</label>
-                <input type="date" name="date-manufacture" id="date-manufacture">
+
+            <div class="col-md-4">
+                <label for="date-manufacture">Date of Manufacture</label>
+                <input class="form-control" type="date" name="date-manufacture" id="date-manufacture">
+
             </div>
-            <div class="col-md-3"><label for="seats-number">Number of Seats:</label>
-                <select name="seats-number" id="seats-number">
-                    <option value="">-please select-</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
+
+            <div class="col-md-4">
+                <label for="seats-number">Number of Seats:</label>
+                <select class="form-control" name="seats-number" id="seats-number">
+                    <option selected>-please select-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
                 </select>
             </div>
-            <div class="col-md-3"><label for="fuel-type">Fuel Type</label>
-                <select name="fuel-type" id="fuel-type">
-                    <option value="">-please select-</option>
-                    <option value="">Petrol</option>
-                    <option value="">Diesel</option>
-                    <option value="">Electric Power</option>
-                    <option value="">Gas</option>
-                    <option value="">Other</option>
+            <div class="col-md-4">
+                <label for="fuel-type">Fuel Type</label>
+                <select class="form-control" name="fuel-type" id="fuel-type">
+                    <option selected>-please select-</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="ElectricPower">Electric Power</option>
+                    <option value="Gas">Gas</option>
+                    <option value="Other">Other</option>
                 </select>
             </div>
-            <div class="col-md-3"><label for="quote-email">E-mail:</label>
-                <input type="email" name="quote-email" id="quote-email" placeholder="test@mail.com">
+            <div class="col-md-4">
+                <label for="quote-email">E-mail:</label>
+                <input class="form-control" type="email" name="quote-email" id="quote-email"
+                    placeholder="test@mail.com">
             </div>
-            <div class="col-md-3"><label for="list-price">List Price [$]:</label>
-                <input type="text" name="list-price" id="list-price">
+            <div class="col-md-4">
+                <label for="list-price">List Price [$]:</label>
+                <input class="form-control" type="text"
+                    name="list-price" id="list-price">
             </div>
-            <div class="col-md-3"><label for="license-plate">License Plate Number:</label>
-                <input type="text" name="license-plate" id="license-plate">
+            <div class="col-md-4">
+                <label for="license-plate">License Plate Number:</label>
+                <input class="form-control" type="text"
+                    name="license-plate" id="license-plate">
             </div>
-            <div class="col-md-3"><label for="annual-mileage">Annual Mileage [mi]:</label>
-                <input type="text" name="annual-mileage" id="annual-mileage">
+            <div class="col-md-4">
+                <label for="annual-mileage">Annual Mileage [mi]:</label>
+                <input placeholder="Leave the vehicle Annual Mileage here" class="form-control" type="text"
+                    name="annual-mileage" id="annual-mileage">
+
             </div>
 
             <p>Enter Insurance Data</p>
-            <div class="col-md-3"><label for="quote-name">First Name:</label>
-                <input type="text" name="quote-name" id="quote-name">
+            <div class="col-md-4">
+                <label for="quote-name">First Name:</label>
+                <input class="form-control" type="text" name="quote-name" id="quote-name">
             </div>
-            <div class="col-md-3"><label for="quote-last-name">Last Name:</label>
-                <input type="text" name="quote-last-name" id="quote-last-name">
+            <div class="col-md-4">
+                <label for="quote-last-name">Last Name:</label>
+                <input class="form-control" type="text" name="quote-last-name" id="quote-last-name">
             </div>
-            <div class="col-md-3"><label for="date-birth">Date of Birth</label>
-                <input type="date" name="date-birth" id="date-birth">
+            <div class="col-md-4">
+                <label for="date-birth">Date of Birth</label>
+                <input class="form-control" type="date" name="date-birth" id="date-birth">
             </div>
-            <div class="col-md-3"><span>Gender:</span>
+            <div class="col-md-1">
+                <span>Gender:</span>
+            </div>
+            <div class="col-md-3">
                 <input type="radio" name="gender" id="male">
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="female">
                 <label for="female">Female</label>
             </div>
-            <div class="col-md-3"><label for="quote-address">Street Address:</label>
-                <input type="text" name="quote-address" id="quote-address">
+            <div class="col-md-4">
+                <label for="quote-address">Street Address:</label>
+                <input class="form-control" type="text" name="quote-address" id="quote-address">
             </div>
-            <div class="col-md-3"><label for="quote-country">Country:</label>
-                <select name="quote-country" id="quote-country">
-                    <option value="">Brasil</option>
-                    <option value="">Argentina</option>
-                    <option value="">Uruguay</option>
-                    <option value="">Perú</option>
+            <div class="col-md-4">
+                <label for="quote-country">Country:</label>
+                <select class="form-control" name="quote-country" id="quote-country">
+                    <option selected>-please select-</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Perú">Perú</option>
                 </select>
             </div>
-            <div class="col-md-3"><label for="quote-zip-code">Zip Code:</label>
-                <input type="text" name="quote-zip-code" id="quote-zip-code">
+            <div class="col-md-4">
+                <label for="quote-zip-code">Zip Code:</label>
+                <input class="form-control" type="text" name="quote-zip-code" id="quote-zip-code">
             </div>
-            <div class="col-md-3"><label for="quote-city">City:</label>
-                <input type="text" name="quote-city" id="quote-city">
+            <div class="col-md-4">
+                <label for="quote-city">City:</label>
+                <input class="form-control" type="text" name="quote-city" id="quote-city">
             </div>
-            <div class="col-md-3"><label for="quote-occupation">Occupation</label>
-                <select name="quote-occupation" id="quote-occupation">
-                    <option value="">-please select-</option>
+            <div class="col-md-4">
+                <label for="quote-occupation">Occupation</label>
+                <select class="form-control" name="quote-occupation" id="quote-occupation">
+                    <option selected>-please select-</option>
                     <option value="">Employee</option>
                     <option value="">Public Official</option>
                     <option value="">Farmer</option>
@@ -168,44 +199,48 @@
             </div>
 
             <p>Enter Product Data</p>
-            <div class="col-md-3"><label for="quote-start">Start Date:</label>
-                <input type="date" name="quote-start" id="quote-start">
+            <div class="col-md-4">
+                <label for="quote-start">Start Date:</label>
+                <input class="form-control" type="date" name="quote-start" id="quote-start">
             </div>
-            <div class="col-md-3"><label for="insurance-sum">Insurance Sum [$]</label>
-                <select name="insurance-sum" id="insurance-sum">
-                    <option value="">-please select-</option>
-                    <option value="">3.000.000,00</option>
-                    <option value="">5.000.000,00</option>
-                    <option value="">7.000.000,00</option>
-                    <option value="">10.000.000,00</option>
-                    <option value="">15.000.000,00</option>
-                    <option value="">20.000.000,00</option>
-                    <option value="">25.000.000,00</option>
-                    <option value="">30.000.000,00</option>
+            <div class="col-md-4">
+                <label for="insurance-sum">Insurance Sum [$]</label>
+                <select class="form-control" name="insurance-sum" id="insurance-sum">
+                    <option selected>-please select-</option>
+                    <option value="3.000.000,00">3.000.000,00</option>
+                    <option value="5.000.000,00">5.000.000,00</option>
+                    <option value="7.000.000,00">7.000.000,00</option>
+                    <option value="10.000.000,00">10.000.000,00</option>
+                    <option value="15.000.000,00">15.000.000,00</option>
+                    <option value="20.000.000,00">20.000.000,00</option>
+                    <option value="25.000.000,00">25.000.000,00</option>
+                    <option value="30.000.000,0">30.000.000,00</option>
                 </select>
             </div>
-            <div class="col-md-3"><label for="damage-insurance">Damage Insurance</label>
-                <select name="damage-insurance" id="damage-insurance">
-                    <option value="">-please select-</option>
-                    <option value="">No Coverage</option>
-                    <option value="">Partial Coverage</option>
-                    <option value="">Full Coverage</option>
+            <div class="col-md-4">
+                <label for="damage-insurance">Damage Insurance</label>
+                <select class="form-control" name="damage-insurance" id="damage-insurance">
+                    <option selected>-please select-</option>
+                    <option value="No Coverage">No Coverage</option>
+                    <option value="Partial Coverage">Partial Coverage</option>
+                    <option value="Full Coverage">Full Coverage</option>
                 </select>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <label for="courtesy-car">Courtesy Car</label>
-                <select name="courtesy-car" id="courtesy-car">
-                    <option value="">-please select-</option>
-                    <option value="">Yes</option>
-                    <option value="">No</option>
+                <select class="form-control" name="courtesy-car" id="courtesy-car">
+                    <option selected>-please select-</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                 </select>
             </div>
+            <div class="col-md-8">
+                <label for="quote-message">Comments:</label>
+                <textarea class="form-control" name="quote-message" id="quote-message"></textarea>
+            </div>
 
-            <label for="quote-message">Comments:</label>
-            <textarea name="quote-message" id="quote-message"></textarea>
-
-            <div class="col-md"><input class="button" type="submit" value="Simulate your quote"></div>
-            <div class="col-md"><input class="button" type="reset" value="Reset values"></div>
+            <div class="col-md-3"><input class="button" type="submit" value="Simulate your quote"></div>
+            <div class="col-md-3"><input class="button" type="reset" value="Reset values"></div>
 
         </form>
     </main>
