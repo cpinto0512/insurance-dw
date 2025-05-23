@@ -1,0 +1,130 @@
+@media screen and (max-width: 768.01px) {
+    footer {
+        .footer-container {
+
+
+            ul {
+                padding-left: 0;
+            }
+
+            .footer-ContactInformation {
+                align-items: flex-end;
+            }
+        }
+    }
+
+    #maps-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactus-container {
+        flex-direction: column;
+    }
+
+    #maps {
+        width: 75%;
+    }
+
+    .other-services-container {
+        .other-services-img {
+            max-width: 280px;
+        }
+
+        .flexcontainers {
+            flex-direction: column;
+        }
+
+        .flexcontainers-reverse {
+            flex-direction: column;
+
+            div {
+                padding: 0;
+            }
+        }
+    }
+
+    .form {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #banner div {
+        width: 80%;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .ourservicesTop {
+        flex-direction: column;
+    }
+
+    .ourservicesBottom {
+        flex-direction: column;
+    }
+
+    .whyus-container {
+        flex-direction: column;
+    }
+
+    article {
+        padding: 10px 0px
+    }
+
+    main {
+        padding-bottom: 0px;
+    }
+
+    .flexcontainers {
+        flex-direction: column;
+    }
+
+    .flexcontainers-reverse {
+        flex-direction: column;
+    }
+
+    .mision-vision-container {
+        flex-direction: column;
+    }
+
+    .vision {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        .footer-container {
+            flex-direction: column;
+
+            ul {
+                padding-left: 0;
+            }
+
+            .footer-ContactInformation {
+                align-items: flex-start;
+            }
+        }
+    }
+
+    .mision-vision-container {
+        .aboutus-img {
+            max-width: 200px;
+        }
+    }
+
+    .form {
+        margin: 0 10px;
+    }
+
+    #maps {
+        width: 90%;
+        height: 300px;
+    }
+}

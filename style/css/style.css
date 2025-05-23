@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   height: 102px;
   width: 100%;
   top: 0px;
@@ -50,7 +50,7 @@ main {
   background-color: #fefefe;
   width: 100%;
   margin-top: 102px;
-  padding: 1% 5%;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -78,12 +78,11 @@ p {
 }
 
 footer {
-  background-color: #ffffff;
-  padding: 0 25px;
+  background-color: #f9f9f9;
+  padding: 25px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  box-shadow: inset 0px 0px 20px 20px rgba(1, 0, 39, 0.071);
 }
 footer .footer-container {
   width: 100%;
@@ -136,13 +135,22 @@ footer span {
 }
 
 .form {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   color: #8a8d92;
   font-style: italic;
-  padding: 20px;
+  padding: 24px;
+  max-width: 1320px;
+  margin: 10px auto;
+  border: none;
+  border-left: 4px solid #ff6c0e;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 .form p {
   margin-bottom: 0;
+}
+.form .radiobutton {
+  align-content: center;
 }
 
 #banner {
@@ -202,17 +210,20 @@ footer span {
 /**WHY US**/
 #why-us {
   width: 100%;
+  max-width: 1320px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 25px;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 #why-us .whyus-container {
   display: flex;
   text-align: center;
-  box-shadow: 5px 2px;
-  background-color: #ffffff;
 }
 
 /**Testimoniales**/
@@ -229,6 +240,10 @@ footer span {
   margin-bottom: 30px;
 }
 
+.quote-banner h4 {
+  padding-top: 20px;
+}
+
 #aboutus-main div {
   padding: 20px;
   text-align: center;
@@ -239,20 +254,37 @@ footer span {
   text-align: center;
 }
 .mision-vision-container .aboutus-img {
-  height: 150px;
+  height: 200px;
 }
 
-.other-services-container div {
-  margin: 10px;
-  margin-top: 20px;
+.other-services-banner {
+  text-align: center;
+  margin-bottom: 30px;
 }
+.other-services-banner h4 {
+  padding-top: 20px;
+}
+
 .other-services-container .other-services-img {
   max-width: 350px;
 }
-
-#contactus-main div {
-  padding: 20px;
+.other-services-container .flexcontainers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
 }
+.other-services-container .flexcontainers-reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.other-services-container .flexcontainers-reverse div {
+  padding-left: 30px;
+}
+
 #contactus-main .contactus-container {
   display: flex;
   align-items: center;
@@ -264,6 +296,39 @@ footer span {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 768.01px) {
+  footer .footer-container ul {
+    padding-left: 0;
+  }
+  footer .footer-container .footer-ContactInformation {
+    align-items: flex-end;
+  }
+  #maps-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-container {
+    flex-direction: column;
+  }
+  #maps {
+    width: 75%;
+  }
+  .other-services-container .other-services-img {
+    max-width: 280px;
+  }
+  .other-services-container .flexcontainers {
+    flex-direction: column;
+  }
+  .other-services-container .flexcontainers-reverse {
+    flex-direction: column;
+  }
+  .other-services-container .flexcontainers-reverse div {
+    padding: 0;
+  }
+  .form {
+    margin: 0 30px;
+  }
+}
 @media screen and (max-width: 426px) {
   h1 {
     font-size: 30px;
@@ -289,29 +354,36 @@ footer span {
   main {
     padding-bottom: 0px;
   }
+  .flexcontainers {
+    flex-direction: column;
+  }
+  .flexcontainers-reverse {
+    flex-direction: column;
+  }
   .mision-vision-container {
     flex-direction: column;
   }
   .vision {
     padding-bottom: 20px;
   }
-}
-@media screen and (max-width: 576px) {
-  .footer-container {
+  footer .footer-container {
     flex-direction: column;
   }
-  .footer-ContactInformation {
+  footer .footer-container ul {
+    padding-left: 0;
+  }
+  footer .footer-container .footer-ContactInformation {
     align-items: flex-start;
   }
-  #maps-section {
-    flex-direction: column;
-    align-items: center;
+  .mision-vision-container .aboutus-img {
+    max-width: 200px;
   }
-  .contactus-container {
-    flex-direction: column;
+  .form {
+    margin: 0 10px;
   }
   #maps {
-    width: 75%;
+    width: 90%;
+    height: 300px;
   }
 }
 

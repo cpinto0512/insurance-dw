@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../img/logo.png" alt="logo" height="76">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,7 +41,7 @@
     </header>
 
     <main>
-        <div class="quote-banner">
+        <div class="quote-banner container-md">
             <h4>Get a quote</h4>
             <h2>Simulate your quote today</h2>
             <p>By completing this form you will be able to receive a complete and official quote for your vehicle
@@ -52,7 +52,7 @@
             <p>Enter Vehicle Data</p>
             <div class="col-md-4">
                 <label for="vehicle-type">Vehicle Type:</label>
-                <select class="form-control" name="vehicle-type" id="vehicle-type">
+                <select class="form-select" name="vehicle-type" id="vehicle-type">
                     <option selected>-please select-</option>
                     <option value="Automibile">Automibile</option>
                     <option value="Truck">Truck</option>
@@ -84,8 +84,7 @@
             </div>
             <div class="col-md-4">
                 <label for="engine-performance">Engine Performance [kW]:</label>
-                <input class="form-control" type="text" name="engine-performance"
-                    id="engine-performance">
+                <input class="form-control" type="text" name="engine-performance" id="engine-performance">
             </div>
 
             <div class="col-md-4">
@@ -96,7 +95,7 @@
 
             <div class="col-md-4">
                 <label for="seats-number">Number of Seats:</label>
-                <select class="form-control" name="seats-number" id="seats-number">
+                <select class="form-select" name="seats-number" id="seats-number">
                     <option selected>-please select-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -111,7 +110,7 @@
             </div>
             <div class="col-md-4">
                 <label for="fuel-type">Fuel Type</label>
-                <select class="form-control" name="fuel-type" id="fuel-type">
+                <select class="form-select" name="fuel-type" id="fuel-type">
                     <option selected>-please select-</option>
                     <option value="Petrol">Petrol</option>
                     <option value="Diesel">Diesel</option>
@@ -127,19 +126,15 @@
             </div>
             <div class="col-md-4">
                 <label for="list-price">List Price [$]:</label>
-                <input class="form-control" type="text"
-                    name="list-price" id="list-price">
+                <input class="form-control" type="text" name="list-price" id="list-price">
             </div>
             <div class="col-md-4">
                 <label for="license-plate">License Plate Number:</label>
-                <input class="form-control" type="text"
-                    name="license-plate" id="license-plate">
+                <input class="form-control" type="text" name="license-plate" id="license-plate">
             </div>
             <div class="col-md-4">
                 <label for="annual-mileage">Annual Mileage [mi]:</label>
-                <input placeholder="Leave the vehicle Annual Mileage here" class="form-control" type="text"
-                    name="annual-mileage" id="annual-mileage">
-
+                <input class="form-control" type="text" name="annual-mileage" id="annual-mileage">
             </div>
 
             <p>Enter Insurance Data</p>
@@ -155,10 +150,10 @@
                 <label for="date-birth">Date of Birth</label>
                 <input class="form-control" type="date" name="date-birth" id="date-birth">
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 radiobutton">
                 <span>Gender:</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 radiobutton">
                 <input type="radio" name="gender" id="male">
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="female">
@@ -170,7 +165,7 @@
             </div>
             <div class="col-md-4">
                 <label for="quote-country">Country:</label>
-                <select class="form-control" name="quote-country" id="quote-country">
+                <select class="form-select" name="quote-country" id="quote-country">
                     <option selected>-please select-</option>
                     <option value="Brasil">Brasil</option>
                     <option value="Argentina">Argentina</option>
@@ -188,7 +183,7 @@
             </div>
             <div class="col-md-4">
                 <label for="quote-occupation">Occupation</label>
-                <select class="form-control" name="quote-occupation" id="quote-occupation">
+                <select class="form-select" name="quote-occupation" id="quote-occupation">
                     <option selected>-please select-</option>
                     <option value="">Employee</option>
                     <option value="">Public Official</option>
@@ -205,7 +200,7 @@
             </div>
             <div class="col-md-4">
                 <label for="insurance-sum">Insurance Sum [$]</label>
-                <select class="form-control" name="insurance-sum" id="insurance-sum">
+                <select class="form-select" name="insurance-sum" id="insurance-sum">
                     <option selected>-please select-</option>
                     <option value="3.000.000,00">3.000.000,00</option>
                     <option value="5.000.000,00">5.000.000,00</option>
@@ -219,7 +214,7 @@
             </div>
             <div class="col-md-4">
                 <label for="damage-insurance">Damage Insurance</label>
-                <select class="form-control" name="damage-insurance" id="damage-insurance">
+                <select class="form-select" name="damage-insurance" id="damage-insurance">
                     <option selected>-please select-</option>
                     <option value="No Coverage">No Coverage</option>
                     <option value="Partial Coverage">Partial Coverage</option>
@@ -228,7 +223,7 @@
             </div>
             <div class="col-md-4">
                 <label for="courtesy-car">Courtesy Car</label>
-                <select class="form-control" name="courtesy-car" id="courtesy-car">
+                <select class="form-select" name="courtesy-car" id="courtesy-car">
                     <option selected>-please select-</option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
@@ -236,11 +231,11 @@
             </div>
             <div class="col-md-8">
                 <label for="quote-message">Comments:</label>
-                <textarea class="form-control" name="quote-message" id="quote-message"></textarea>
+                <input class="form-control" type="text" name="quote-message" id="quote-message">
             </div>
 
-            <div class="col-md-3"><input class="button" type="submit" value="Simulate your quote"></div>
-            <div class="col-md-3"><input class="button" type="reset" value="Reset values"></div>
+            <div class="col-xl-2 col-lg-4 col-md-4"><input class="button" type="submit" value="Simulate your quote"></div>
+            <div class="col-xl-2 col-lg-2 col-md-4"><input class="button" type="reset" value="Reset values"></div>
 
         </form>
     </main>

@@ -13,75 +13,10 @@
 
 //PAGES
 @use "./pages/home";
+@use "./pages/get-a-quote";
 @use "./pages/about-us";
 @use "./pages/other-services";
 @use "./pages/contact-us";
 
-
-@media screen and (max-width: 426px) {
-
-    h1 {
-        font-size: 30px;
-    }
-
-    #banner div {
-        width: 80%;
-    }
-
-    .button {
-        text-align: center;
-    }
-
-    .ourservicesTop {
-        flex-direction: column;
-    }
-
-    .ourservicesBottom {
-        flex-direction: column;
-    }
-
-    .whyus-container {
-        flex-direction: column;
-    }
-
-    article {
-        padding: 10px 0px
-    }
-
-    main {
-        padding-bottom: 0px;
-    }
-
-    
-
-    .mision-vision-container {
-        flex-direction: column;
-    }
-
-    .vision {
-        padding-bottom: 20px;
-    }
-
-    
-}
-
-@media screen and (max-width: 576px) {
-    .footer-container {
-        flex-direction: column;
-    }
-
-    .footer-ContactInformation {
-        align-items: flex-start;
-    }
-    #maps-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    .contactus-container {
-        flex-direction: column;
-    }
-    #maps {
-        width: 75%;
-    }
-    
-}
+//MEDIA QUERIES
+@use "./base/media-queries"

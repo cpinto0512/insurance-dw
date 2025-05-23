@@ -4,8 +4,19 @@
     background-color: $secondary-background-color;
     color: $form-font-color;
     font-style: italic;
-    padding: 20px;
+    padding:24px;
+    max-width: 1320px;
+    margin: 10px auto;
+    border: none;
+    border-left: 4px solid $button-color;
+    background-color: $form-background-color;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+
     p {
         margin-bottom: 0;
+    }
+
+    .radiobutton {
+        align-content: center;
     }
 }
