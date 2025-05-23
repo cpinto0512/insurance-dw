@@ -255,7 +255,10 @@ footer span {
   text-align: center;
 }
 .mision-vision-container .aboutus-img {
+  width: 200px;
   height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .other-services-banner {
@@ -267,7 +270,10 @@ footer span {
 }
 
 .other-services-container .other-services-img {
-  max-width: 350px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .other-services-container .flexcontainers {
   display: flex;

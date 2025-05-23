@@ -1,14 +1,19 @@
-.other-services-banner{
+.other-services-banner {
     text-align: center;
     margin-bottom: 30px;
-    h4{
+
+    h4 {
         padding-top: 20px;
     }
 }
+
 .other-services-container {
 
     .other-services-img {
-        max-width: 350px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 
     .flexcontainers {
