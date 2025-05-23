@@ -55,24 +55,42 @@
         font-size: 30px;
     }
 
-    #banner div {
-        width: 80%;
+    #banner {
+        padding: 0 10px;
+
+        div {
+            width: 100%;
+            margin: 0;
+        }
     }
 
+    #our-services {
+        padding: 0 10px;
+
+        .ourservicesTop {
+            flex-direction: column;
+        }
+
+        .ourservicesBottom {
+            flex-direction: column;
+        }
+
+    }
+
+    #why-us {
+        padding: 0 10px;
+
+        .whyus-container {
+            flex-direction: column;
+        }
+    }
+
+    #testimoniales{
+        padding: 0 10px;
+    }
+    
     .button {
         text-align: center;
-    }
-
-    .ourservicesTop {
-        flex-direction: column;
-    }
-
-    .ourservicesBottom {
-        flex-direction: column;
-    }
-
-    .whyus-container {
-        flex-direction: column;
     }
 
     article {

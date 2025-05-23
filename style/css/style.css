@@ -24,6 +24,7 @@ header {
   width: 100%;
   top: 0px;
   position: fixed;
+  z-index: 1250;
 }
 
 .navbar-nav {
@@ -333,20 +334,33 @@ footer span {
   h1 {
     font-size: 30px;
   }
+  #banner {
+    padding: 0 10px;
+  }
   #banner div {
-    width: 80%;
+    width: 100%;
+    margin: 0;
+  }
+  #our-services {
+    padding: 0 10px;
+  }
+  #our-services .ourservicesTop {
+    flex-direction: column;
+  }
+  #our-services .ourservicesBottom {
+    flex-direction: column;
+  }
+  #why-us {
+    padding: 0 10px;
+  }
+  #why-us .whyus-container {
+    flex-direction: column;
+  }
+  #testimoniales {
+    padding: 0 10px;
   }
   .button {
     text-align: center;
-  }
-  .ourservicesTop {
-    flex-direction: column;
-  }
-  .ourservicesBottom {
-    flex-direction: column;
-  }
-  .whyus-container {
-    flex-direction: column;
   }
   article {
     padding: 10px 0px;

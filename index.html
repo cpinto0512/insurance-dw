@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Index</title>
 </head>
 
@@ -42,7 +44,7 @@
 
     <main id="index-main">
         <section id="banner">
-            <div class="banner-container">
+            <div class="banner-container" data-aos="flip-left">
                 <h1>Get your insurance NOW!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat nesciunt praesentium mollitia
                     iure. Inventore, quidem corporis facilis labore velit doloribus aut praesentium quo ipsum eveniet
@@ -57,7 +59,7 @@
             <h4>Our services</h4>
             <h2>Insure what you need</h2>
             <div class="ourservices-container container">
-                <div class="ourservicesTop">
+                <div class="ourservicesTop" data-aos="fade-up">
                     <article>
                         <h3>Automobile insurance service</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloremque repudiandae nihil
@@ -73,7 +75,7 @@
                         <img class="ourservices-img" src="./img/truck.jfif" alt="truck">
                     </article>
                 </div>
-                <div class="ourservicesBottom">
+                <div class="ourservicesBottom" data-aos="fade-up">
                     <article>
                         <h3>Camper insurance service</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente soluta ratione aperiam?
@@ -95,7 +97,7 @@
 
         <section id="why-us">
             <h3>Why us?</h3>
-            <div class="whyus-container container">
+            <div class="whyus-container container" data-aos="zoom-in-up">
                 <article>
                     <h2>Beneficio 1 de nuestro servicio</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem nisi possimus tempore
@@ -123,26 +125,27 @@
         </section>
 
         <section id="testimoniales">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="3000">
                 <h3>Testimoniales</h3>
-            <article>
-                <h2>"Resumen testimonio 1"</h2>
-                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita praesentium nostrum iste sit
-                    beatae mollitia quis fugiat. Ipsum reprehenderit accusamus praesentium voluptatum vel, nostrum
-                    veritatis autem asperiores error quasi voluptatem?"</p>
-            </article>
-            <article>
-                <h2>"Resumen testimonio 2"</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptate sapiente iste
-                    neque est quo quis necessitatibus accusantium, quaerat nesciunt cum quisquam ducimus aut accusamus,
-                    exercitationem consequatur numquam totam explicabo."</p>
-            </article>
-            <article>
-                <h2>"Resumen testimonio 3"</h2>
-                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius voluptatibus voluptate atque
-                    asperiores pariatur inventore dolore distinctio labore vitae, porro eos, voluptatem, quaerat
-                    architecto eveniet enim deleniti dignissimos magni."</p>
-            </article>
+                <article>
+                    <h2>"Resumen testimonio 1"</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita praesentium nostrum iste sit
+                        beatae mollitia quis fugiat. Ipsum reprehenderit accusamus praesentium voluptatum vel, nostrum
+                        veritatis autem asperiores error quasi voluptatem?"</p>
+                </article>
+                <article>
+                    <h2>"Resumen testimonio 2"</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptate sapiente iste
+                        neque est quo quis necessitatibus accusantium, quaerat nesciunt cum quisquam ducimus aut
+                        accusamus,
+                        exercitationem consequatur numquam totam explicabo."</p>
+                </article>
+                <article>
+                    <h2>"Resumen testimonio 3"</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius voluptatibus voluptate atque
+                        asperiores pariatur inventore dolore distinctio labore vitae, porro eos, voluptatem, quaerat
+                        architecto eveniet enim deleniti dignissimos magni."</p>
+                </article>
             </div>
         </section>
 
@@ -181,9 +184,14 @@
         <span>Copyright ©2025 All Rights Reserved</span>
     </footer>
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
