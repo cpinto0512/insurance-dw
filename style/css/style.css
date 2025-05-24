@@ -127,8 +127,15 @@ footer span {
 .button {
   background-color: #ff6c0e;
   color: #ffffff;
+  border-color: black;
+  border-style: solid;
   border-radius: 8px;
   padding: 5px;
+}
+.button:hover {
+  background-color: rgb(218, 85.0290456432, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
 }
 
 #testimoniales article {

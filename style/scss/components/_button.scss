@@ -3,8 +3,16 @@
 .button {
     background-color: $button-color;
     color: $button-text-color;
+    border-color: black;
+    border-style: solid;
     border-radius: 8px;
     padding: 5px;
+
+    &:hover{
+        background-color: darken($button-color, 10%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    }
 }
 
 #testimoniales article {
